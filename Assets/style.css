@@ -72,54 +72,53 @@ th:not([align]) {
   text-align: left;
 }
 
-/* styling */
-
-#logo {
-  width: 17em;
-  display: block;
-  margin: 0 auto;
-  margin-top: 13.8%;
-}
-
-#searchbar {
-  display: block;
-  margin: 0 auto;
-  height: 2.8em;
-  width: 35em;
-  margin-top: 2em;
-  font-size: 16px;
-  border-radius: 25px;
-}
-
-.button {
-  background-color: #f2f2f2;
-  color: #4d4d4d;
-  padding: 10px 25px;
-  text-decoration: none;
-  font-size: 14px;
-  margin: 6px;
-  border: none;
-  border-radius: 3px;
-}
-
-#b {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-ul,
-.header {
-  text-align: right;
-  margin-right: 2em;
-  margin-top: 2em;
+/* styling-Header */
+body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
-li,
-a {
-  display: inline;
-  color: #4d4d4d;
-  text-decoration: none;
-  border: 200px;
-  padding: 20px;
+ul {
+  margin-top: 30px;
+}
+li {
+  width: 40;
+  height: 20;
+  float: right;
+  list-style-type: none;
+  padding: 5px;
+}
+li:nth-child(2) {
+  background-image: url(https://www.google.co.ke/intl/en/about/products?tab=wh)
+    no-repeat;
+  background-size: 30px;
+  margin-left: 15px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: 1px solid;
+  font-weight: bold;
+  padding: 10px 12px;
+  border-radius: 3px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+li: :hover {
+  cursor: pointer;
+}
+
+/* body */
+#content img {
+  width: 350px;
+  height: 150px;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.textbox {
+  width: 550px;
+  height: 40px;
+  border: 1px solid lightslategray;
+  border-radius: 6px;
 }
