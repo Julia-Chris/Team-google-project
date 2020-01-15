@@ -101,3 +101,25 @@ th:not([align]) {
   border: none;
   border-radius: 3px;
 }
+
+#b {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+ul,
+.header {
+  text-align: right;
+  margin-right: 2em;
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li,
+a {
+  display: inline;
+  color: #4d4d4d;
+  text-decoration: none;
+  border: 200px;
+  padding: 20px;
+}
