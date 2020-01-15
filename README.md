@@ -1,7 +1,9 @@
 # Team-google-project
-Google Homepage clone 
+
 Project Name
-One paragraph statement about the project.
+Google Homepage clone 
+The project is about cloning Google Homepage
+This is a challenge from my Stand Up Team #Labradors
 
 screenshot
 
